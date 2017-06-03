@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title uploadfile
+    body
+        h1 Upload a file and get its size
+        form(method='post',enctype='multipart/form-data',action='https://fileupload-masonlee.c9users.io/getFile')
+            input(type='file',name='file')
+            input(type='submit')
